@@ -12,10 +12,10 @@
                 "research_code": "https://github.com/BigdogManLuo/HEFTcom24",
                 "paper": "https://arxiv.org/abs/2505.10367"
             },
-            "image1": "./assets/img/heftcom.png",
-            "image2": "./assets/img/heftcom_group.jpg",
-            "image3": "./assets/img/heftcom_present.jpg",
-            "image4": "./assets/img/heftcom_award.png"
+            "image1": "assets/img/heftcom.png",
+            "image2": "assets/img/heftcom_group.jpg",
+            "image3": "assets/img/heftcom_present.jpg",
+            "image4": "assets/img/heftcom_award.png"
 
         },
         {
@@ -25,8 +25,8 @@
             "to_date": "2025-07",
             "description": "I participated in the forecasting hackathon organized by the International Institute of Forecasters (IIF) at ISF 2025. This was an in-person, time-limited coding competition focused on forecasting quarterly inbound tourism arrivals to Hong Kong and Macao for 2023–2025. By applying time-series analysis and machine learning techniques, I achieved 1st place with the lowest MAE.",
             "award": "First Prize(1st Place)",
-            "image1": "./assets/img/ths_hackathon.png",
-            "image2": "./assets/img/ths_award.jpg"
+            "image1": "assets/img/ths_hackathon.png",
+            "image2": "assets/img/ths_award.jpg"
         },
         {
             "type": "Forecasting & Optimization",
@@ -39,7 +39,7 @@
                 "code":"https://www.kaggle.com/code/sherlockbanks/hull-tac-submission/",
                 "discussion":"www.kaggle.com/competitions/hull-tactical-market-prediction/discussion/664108"
             },
-            "image1": "./assets/img/kaggle_hull.png"
+            "image1": "assets/img/kaggle_hull.png"
         },
         {
             "type":"Digital Signal Processing & Embedded Systems",
@@ -53,12 +53,12 @@
                 "pcb_source":"https://github.com/SeanXLee/universal-pe-starterkit",
                 "demo_video":"https://github.com/SeanXLee/universal-pe-starterkit"
             },
-            "image1":"./assets/img/ti_cup.jpg",
-            "image2":"./assets/img/ti_cup2.jpg"
+            "image1":"assets/img/ti_cup.jpg",
+            "image2":"assets/img/ti_cup2.jpg"
         },
         {
             "type":"Numerical Computing & Simulation",
-            "name":"“PowerFlower: A Mini-Software for Power Flow Calculations”",
+            "name":"“PowerFlower”: A Mini-Software for Power Flow Calculations",
             "from_date":"2022-08",
             "to_date":"2022-08",
             "description":"During my junior year, I developed a mini software called PowerFlower for power flow calculations. The software was written in MATLAB scripts and used App Designer to create a graphical interface. PowerFlower supports various power flow calculation methods, including the Newton-Raphson method, PQ decomposition method, and batch power flow analysis. Users can easily input system data, run power flow calculations, and view results graphically.",
@@ -66,7 +66,7 @@
                 "code":"https://github.com/BigdogManLuo/powerFlower/tree/main",
                 "document":"https://github.com/BigdogManLuo/powerFlower/blob/main/doc/document.pdf"
             },
-            "image1":"./assets/img/powerflower.png"
+            "image1":"assets/img/powerflower.png"
         }
     ]
 }

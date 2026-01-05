@@ -1,6 +1,6 @@
 {"keywords(SEO)": ["Chuanqing Pu", "Shanghai Jiao Tong University", "Electrical Engineering", "Forecasting", "Machine Learning", "Optimization"], 
 "description(SEO)": "Chuanqing Pu is a PhD candidate at Shanghai Jiao Tong University, specializing in probabilistic forecasting and uncertainty-aware optimization for power systems.",
 "canonical(SEO)": "https://bigdogmanluo.github.io/academic-homepage/", 
-"favicon": "./assets/img/favicon.png",
-"favicon_dark": "./assets/img/favicon-dark.png"
+"favicon": "assets/img/favicon.png",
+"favicon_dark": "assets/img/favicon-dark.png"
 }

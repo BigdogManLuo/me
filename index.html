@@ -10,13 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
 </head>
 <body>
 
 <div class="container">
 
     <header class="header-profile">
-        <img src="{{ site.data.about.avatar }}" alt="Avatar" class="avatar">
+        <img src="{{ site.data.about.avatar | relative_url }}" alt="Avatar" class="avatar">
         <div class="profile-info">
             <h1>{{ site.data.about.name }}</h1>
             <span class="tagline">{{ site.data.about.position }} @ {{ site.data.about.affiliation }}</span>

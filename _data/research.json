@@ -6,7 +6,7 @@
             "authors": "<b>Chuanqing Pu</b>, Feilong Fan, Nengling Tai, Yan Xu, Wentao Huang, Honglin Wen",
             "journal": "IEEE Transactions on Smart Grid",
             "pdf": "https://arxiv.org/abs/2511.07938",
-            "image": "./assets/img/pipeline.png",
+            "image": "assets/img/pipeline.png",
             "status": "Reviewing"
         },
         {
@@ -17,7 +17,7 @@
             "pdf": "https://arxiv.org/abs/2505.10367",
             "code": "https://github.com/BigdogManLuo/HEFTcom24",
             "status": "Accepted",
-            "image": "./assets/img/overview.png"
+            "image": "assets/img/overview.png"
         },
         {
             "title":"LLM-based Frameworks for Power Engineering from Routine to Novel Tasks",
@@ -26,7 +26,7 @@
             "journal": "Nature Communications",
             "pdf": "https://arxiv.org/abs/2305.11202",
             "status": "Rejected (after second review)",
-            "image": "./assets/img/LLM_framework.png"
+            "image": "assets/img/LLM_framework.png"
         },
         {
             "title": "Distributed Stochastic Operation of Low-Carbon Port Energy-Logistics Systems via Learning to Warm-Start",
@@ -35,7 +35,7 @@
             "journal": "IEEE Transactions on Industrial Applications",
             "pdf": "https://ieeexplore.ieee.org/abstract/document/10882993",
             "status": "Published",
-            "image": "./assets/img/framework.png"
+            "image": "assets/img/framework.png"
         },
         {
             "title": "Transmission Power-oriented Forecasting towards Stability-Constrained Operation of Renewable Energy Power Plants with Energy Storages",
@@ -44,7 +44,7 @@
             "journal": "CSEE Journal of Power and Energy Systems",
             "pdf": "https://ieeexplore.ieee.org/abstract/document/11069389",
             "status": "Published",
-            "image": "./assets/img/VOF_Framework.png"
+            "image": "assets/img/VOF_Framework.png"
         }
     ]
 }

@@ -46,7 +46,7 @@
         {
             "title": "Decoupled Probabilistic Forecasting for Hybrid Power Plants and Stochastic Programming-Based Value-Oriented Trading Strategy",
             "keynote": true,
-            "image": "./assets/img/ISF2024.png",
+            "image": "assets/img/ISF2024.png",
             "event": "International Symposium of Forecasting 2024 (ISF2024)",
             "location": "Dijon, France",
             "date": "2024-06-30",

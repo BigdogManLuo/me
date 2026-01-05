@@ -7,7 +7,7 @@
     "cv_link": "assets/files/curriculum_vitae.pdf",
     "github_link": "https://github.com/BigdogManLuo/",
     "linkedin": "https://www.linkedin.com/in/chuanqing-pu-943673317/",
-    "avatar": "./assets/img/avatar.jpg",
+    "avatar": "assets/img/avatar.jpg",
     "intro": "I am currently a PhD candidate specializing in probabilistic forecasting and uncertainty-aware/data-driven optimization for power systems. I am also passionate about <b>data engineering</b>, especially skilled in time-series forecasting and optimization modeling. I also maintain a personal <b>Blog</b> and <b>GitHub repositories</b> where I share insights and projects in data science.",
     "email": "sashabanks@sjtu.edu.cn",
     "Research Interests": [

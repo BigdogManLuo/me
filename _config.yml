@@ -3,5 +3,9 @@ email: sashabanks@sjtu.edu.cn
 description: >- # this means to ignore newlines until "baseurl:"
   PhD Candidate specializing in probabilistic forecasting and uncertainty-aware optimization.
 github_username: BigdogManLuo
+# 你的仓库名（注意：必须以 / 开头）
+baseurl: "/personal_page"
+# 你的根域名地址
+url: "https://BigdogManLuo.github.io"
 plugins:
   - jekyll-seo-tag

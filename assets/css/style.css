@@ -157,6 +157,27 @@ a:hover { border-bottom: 1px solid var(--text-main); }
 .links-row a:after { content: ']'; margin-left: 2px;}
 
 /* --- Engineering Grid Layout --- */
+/* 1. 日期样式 (为了配合标题，稍微调整一下日期) */
+.date-range {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 4px; /* 紧贴标题上方 */
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* 2. 标题样式 (核心部分) */
+.project-title {
+    font-family: var(--font-serif); /* 使用网页主字体 */
+    font-size: 1.35rem;             /* 稍微大一点，确立层级 */
+    font-weight: 700;               /* 加粗 */
+    color: #000000;                 /* 纯黑 */
+    line-height: 1.2;               /* 标题行高紧凑一点更好看 */
+    margin-top: 0;
+    margin-bottom: 0.6rem;          /* 下方留出呼吸感 */
+}
+
 .project-grid {
     display: grid;
     /* 自动适应列数：最小宽度 300px，放不下就换行 */
