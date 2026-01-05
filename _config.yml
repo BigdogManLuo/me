@@ -1,0 +1,7 @@
+title: Chuanqing Pu
+email: sashabanks@sjtu.edu.cn
+description: >- # this means to ignore newlines until "baseurl:"
+  PhD Candidate specializing in probabilistic forecasting and uncertainty-aware optimization.
+github_username: BigdogManLuo
+plugins:
+  - jekyll-seo-tag

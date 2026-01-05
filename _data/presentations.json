@@ -1,0 +1,75 @@
+{
+    "presentations": [
+        {
+            "title": "Enhancing the Export Capability of Renewable Energy Bases through Two-Stage Small Signal Stability-Constrained Optimal Dispatch",
+            "event": "The 14th International Conference on Renewable Power Generation (RPG 2025)",
+            "location": "Shanghai, China",
+            "date": "2025-10-26",
+            "pdf": "assets/files/RPG2025/conference_slides.pdf",
+            "photo": "assets/files/RPG2025/conference_photo.jpg"
+        },
+        {
+            "title": "Data-Driven Operation of Seaport Energy-Logistics Systems",
+            "event": "Academic Visiting",
+            "location": "University of Liverpool, UK",
+            "date":"2025-08-22",
+            "invited by": "Prof. Lin Jiang",
+            "pdf": "assets/files/UKAV/Presentation-research.pdf",
+            "photo": "assets/files/UKAV/university_of_liverpool.jpg"
+        },
+        {
+            "title": "Data-Driven Operation of Seaport Energy-Logistics Systems",
+            "event": "Academic Visiting",
+            "location": "University College London, UK",
+            "date":"2025-08-22",
+            "invited by": "Dr. Akylas Stratigakos",
+            "pdf": "assets/files/UKAV/Presentation-research.pdf",
+            "photo": "assets/files/UKAV/ucl.jpg"
+        },
+        {
+            "title": "End-To-End Forecasting Towards Economic Operation of Microgrid Using Derivative-Free Learning",
+            "event": "IEEE Sustainable Power and Energy Conference (iSPEC) 2024",
+            "location": "Kuching, Malaysia",
+            "date": "2024-11-26",
+            "pdf": "assets/files/iSPEC/#1571042830.pdf",
+            "photo": "assets/files/iSPEC/iSPEC2024_photo.jpg"
+        },
+        {
+            "title": "Aggregated Probabilistic Forecasting and Stochastic Trading Strategies for HEFTCom2024",
+            "event": "Ørsted Science Talk",
+            "location": "Online",
+            "date": "2024-09-09",
+            "invited by": "Orsted Energy",
+            "pdf": "assets/files/Orsted/heftcom.pdf",
+            "photo": "assets/files/Orsted/Orsted_logo.png"
+        },
+        {
+            "title": "Decoupled Probabilistic Forecasting for Hybrid Power Plants and Stochastic Programming-Based Value-Oriented Trading Strategy",
+            "keynote": true,
+            "image": "./assets/img/ISF2024.png",
+            "event": "International Symposium of Forecasting 2024 (ISF2024)",
+            "location": "Dijon, France",
+            "date": "2024-06-30",
+            "invited by": "Prof. Jethro Browell and International Institute of Forecasters (IIF)",
+            "pdf": "assets/files/ISF2024/HEFTcom.pdf",
+            "photo": "assets/files/ISF2024/ISF2024_photo.jpg",
+            "vedio":"https://www.youtube.com/watch?v=79fhHrn-5TM&t=4114s"
+        },
+        {
+            "title": "Aerodynamic Noise-Based Fault Detection for Wind Turbine Blades: An Online Unsupervised Approach",
+            "event": "International Conference on Power Science and Technology (ICPST) 2024",
+            "location": "Yunnan, China",
+            "date": "2024-05-10",
+            "photo": "assets/files/ICPST/ICPST2024_photo.jpg",
+            "pdf": "assets/files/ICPST/ICPST2024_presentation.pdf"
+        },
+        {
+            "title": "Flexible Coordination of Wind Generators and Energy Storages in Joint Energy and Frequency Regulation Market",
+            "event":"Panda Forum on Power and Energy (PandaFPE)",
+            "location":"Chengdu, China",
+            "date":"2023-04-28",
+            "photo":"",
+            "pdf":"assets/files/PandaFPE/PandaFPE.pdf"
+        }
+    ]
+}

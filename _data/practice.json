@@ -1,0 +1,72 @@
+{
+    "Practices":[
+        {
+            "type": "Forecasting & Optimization",
+            "name": "IEEE Hybrid Energy Forecasting and Trading Competition (HEFTCom24)",
+            "from_date": "2024-01",
+            "to_date": "2024-06",
+            "award": "Best Student Team (1st Place)",
+            "description": "During the first year of my Ph.D., I participated in the IEEE HEFTCom24 competition, which focuses on developing efficient hybrid wind–solar power forecasting and trading strategies to address the volatility and uncertainty of renewable generation. Our team developed multiple approaches, including multi-source NWP stacking for probabilistic forecasting, Quantile-LASSO–based online post-processing, probability density aggregation, and a stochastic trading strategy under electricity price uncertainty. Ultimately, we achieved the lowest average pinball loss and the highest trading profit, earning the “Best Student Team (1st Place)” award. We were also invited to present our work at ISF 2024, and submitted a paper detailing our methodology to the International Journal of Forecasting.",
+            "links": {
+                "practical_code": "https://github.com/BigdogManLuo/HEFTcom24/tree/online",
+                "research_code": "https://github.com/BigdogManLuo/HEFTcom24",
+                "paper": "https://arxiv.org/abs/2505.10367"
+            },
+            "image1": "./assets/img/heftcom.png",
+            "image2": "./assets/img/heftcom_group.jpg",
+            "image3": "./assets/img/heftcom_present.jpg",
+            "image4": "./assets/img/heftcom_award.png"
+
+        },
+        {
+            "type": "Forecasting & Optimization",
+            "name": "THS Forecasting Hackathon 2025",
+            "from_date": "2025-07",
+            "to_date": "2025-07",
+            "description": "I participated in the forecasting hackathon organized by the International Institute of Forecasters (IIF) at ISF 2025. This was an in-person, time-limited coding competition focused on forecasting quarterly inbound tourism arrivals to Hong Kong and Macao for 2023–2025. By applying time-series analysis and machine learning techniques, I achieved 1st place with the lowest MAE.",
+            "award": "First Prize(1st Place)",
+            "image1": "./assets/img/ths_hackathon.png",
+            "image2": "./assets/img/ths_award.jpg"
+        },
+        {
+            "type": "Forecasting & Optimization",
+            "name": "Kaggle - Hull Tactical Market Prediction",
+            "from_date": "2025-10",
+            "to_date": "2025-12",
+            "description": "This was a global quantitative trading competition with over 5,000 participants. Contestants were required to predict the daily excess returns of S&P 500 constituents and make position-scaling decisions to maximize the Sharpe ratio. I developed a solution that combines probabilistic forecasting with uncertainty-aware optimization: I estimated CVaR via dense quantile regression, and formulated a position optimization model by deriving the one-step loss of the scoring rule. In an offline, leakage-free walk-forward evaluation, my model achieved an average Sharpe ratio of 1.33 across all folds (variance 0.9), exceeding the 15% market Sharpe benchmark.",
+            "award": "Ongoing",
+            "links":{
+                "code":"https://www.kaggle.com/code/sherlockbanks/hull-tac-submission/",
+                "discussion":"www.kaggle.com/competitions/hull-tactical-market-prediction/discussion/664108"
+            },
+            "image1": "./assets/img/kaggle_hull.png"
+        },
+        {
+            "type":"Digital Signal Processing & Embedded Systems",
+            "name":"“TI Cup” National Undergraduate Electronic Design Competition",
+            "from_date":"2021-03",
+            "to_date":"2021-11",
+            "description":"During my junior year, I participated in the 2021 “TI Cup” National Undergraduate Electronic Design Contest and won the National First Prize. The competition required designing and implementing DSP-based control algorithms for a three-phase inverter and rectifier. I led the development of the algorithmic modules, including three-/single-phase PLL, PID and PR controllers, and dq/αβ coordinate transformations, and delivered the full engineering workflow—from algorithm design to PCB implementation and experimental validation.",
+            "award":"National 1st Prize",
+            "links": {
+                "dsp_tools":"https://github.com/BigdogManLuo/DSPLibrary",
+                "pcb_source":"https://github.com/SeanXLee/universal-pe-starterkit",
+                "demo_video":"https://github.com/SeanXLee/universal-pe-starterkit"
+            },
+            "image1":"./assets/img/ti_cup.jpg",
+            "image2":"./assets/img/ti_cup2.jpg"
+        },
+        {
+            "type":"Numerical Computing & Simulation",
+            "name":"“PowerFlower: A Mini-Software for Power Flow Calculations”",
+            "from_date":"2022-08",
+            "to_date":"2022-08",
+            "description":"During my junior year, I developed a mini software called PowerFlower for power flow calculations. The software was written in MATLAB scripts and used App Designer to create a graphical interface. PowerFlower supports various power flow calculation methods, including the Newton-Raphson method, PQ decomposition method, and batch power flow analysis. Users can easily input system data, run power flow calculations, and view results graphically.",
+            "links": {
+                "code":"https://github.com/BigdogManLuo/powerFlower/tree/main",
+                "document":"https://github.com/BigdogManLuo/powerFlower/blob/main/doc/document.pdf"
+            },
+            "image1":"./assets/img/powerflower.png"
+        }
+    ]
+}

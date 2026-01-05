@@ -1,0 +1,51 @@
+{
+    "publications": [
+        {
+            "title": "Predict-then-Optimize for Seaport Power-Logistics Scheduling: Generalization across Varying Tasks Stream",
+            "abstract":"Decision-focused learning aligns the training of forecasting models with downstream decision outcomes. However, this end-to-end design inherently restricts the value of forecasting models to only a specific task structure, and thus generalize poorly to evolving tasks. In this work, we study predict-then-optimize scheduling for coupled port power–logistics operations under nonstationary vessel-arrival patterns. We propose a decision-aware continual-learning framework that combines Fisher-information regularization with differentiable convex surrogates to stabilize end-to-end training across task streams.",
+            "authors": "<b>Chuanqing Pu</b>, Feilong Fan, Nengling Tai, Yan Xu, Wentao Huang, Honglin Wen",
+            "journal": "IEEE Transactions on Smart Grid",
+            "pdf": "https://arxiv.org/abs/2511.07938",
+            "image": "./assets/img/pipeline.png",
+            "status": "Reviewing"
+        },
+        {
+            "title": "A Hybrid Strategy for Probabilistic Forecasting and Trading of Aggregated Wind-Solar Power: Design and Analysis in HEFTCom2024",
+            "abstract":"We develop a hybrid pipeline for probabilistic forecasting and day-ahead trading of aggregated wind–solar generation under distribution shift. The approach integrates multi-source NWP stacking, online solar post-processing, uncertainty-aware aggregation, and a stochastic bidding strategy to align predictive uncertainty with market decisions. In HEFTCom2024, the method achieves strong leaderboard performance and is released with reproducible open-source code.",
+            "authors": "<b>Chuanqing Pu</b>, Feilong Fan, Nengling Tai, Songyuan Liu, Jinming Yu",
+            "journal": "International Journal of Forecasting",
+            "pdf": "https://arxiv.org/abs/2505.10367",
+            "code": "https://github.com/BigdogManLuo/HEFTcom24",
+            "status": "Accepted",
+            "image": "./assets/img/overview.png"
+        },
+        {
+            "title":"LLM-based Frameworks for Power Engineering from Routine to Novel Tasks",
+            "abstract":"This work investigates how large language models (LLMs) can reduce programming workload in power systems by proposing LLM-assisted frameworks for both routine and complex coding tasks.For well-defined tasks (e.g., unit commitment), we develop an end-to-end evaluation framework to benchmark leading LLMs in success rate, consistency, and robustness; for open-ended tasks, we introduce a human-in-the-loop framework that supports interactive method recommendation, problem decomposition, subtask coding, and code synthesis.",
+            "authors": "<b>Ran Li</b>, <b>Chuanqing Pu</b>, Junyi Tao, Canbing Li, Feilong Fan, Yue Xiang, Sijie Chen",
+            "journal": "Nature Communications",
+            "pdf": "https://arxiv.org/abs/2305.11202",
+            "status": "Rejected (after second review)",
+            "image": "./assets/img/LLM_framework.png"
+        },
+        {
+            "title": "Distributed Stochastic Operation of Low-Carbon Port Energy-Logistics Systems via Learning to Warm-Start",
+            "abstract":"We propose a fast distributed scheduling framework that decomposes the centralized IELS problem into iterative subproblems via ADMM, and introduces a learning-based warm start to accelerate convergence while preserving optimality.",
+            "authors": "<b>Feilong Fan</b>, <b>Chuanqing Pu</b>, Nengling Tai, Jiayi Luo, Zhanpeng Chen, Xipeng Zhang",
+            "journal": "IEEE Transactions on Industrial Applications",
+            "pdf": "https://ieeexplore.ieee.org/abstract/document/10882993",
+            "status": "Published",
+            "image": "./assets/img/framework.png"
+        },
+        {
+            "title": "Transmission Power-oriented Forecasting towards Stability-Constrained Operation of Renewable Energy Power Plants with Energy Storages",
+            "abstract":"This work proposes a forecasting method for renewable energy power plants with energy storage, explicitly accounting for grid-stability issues rather than only minimizing statistical errors. We embed the REPP operational model into the forecasting loss to quantify how forecast errors affect deliverable transmission power, and develop an implicit-differentiation training algorithm to enable end-to-end backpropagation.",
+            "authors": "<b>Feilong Fan</b>, <b>Chuanqing Pu</b>, Jun Wang, Nengling Tai, Hongqiao Peng, Qifen Li",
+            "journal": "CSEE Journal of Power and Energy Systems",
+            "pdf": "https://ieeexplore.ieee.org/abstract/document/11069389",
+            "status": "Published",
+            "image": "./assets/img/VOF_Framework.png"
+        }
+    ]
+}
+
