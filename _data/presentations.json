@@ -45,9 +45,9 @@
         },
         {
             "title": "Decoupled Probabilistic Forecasting for Hybrid Power Plants and Stochastic Programming-Based Value-Oriented Trading Strategy",
-            "keynote": true,
+            "type": "keynote",
             "image": "assets/img/ISF2024.png",
-            "event": "International Symposium of Forecasting 2024 (ISF2024)",
+            "event": "International Symposium of Forecasting 2024 (ISF2024) [Keynote] ",
             "location": "Dijon, France",
             "date": "2024-06-30",
             "invited by": "Prof. Jethro Browell and International Institute of Forecasters (IIF)",

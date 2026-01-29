@@ -1,0 +1,212 @@
+{   
+    "name": "Chuanqing Pu",
+    "position": "PhD Candidate",
+    "affiliation": "Shanghai Jiao Tong University",
+    "google_scholar": "https://scholar.google.com/citations?hl=en&user=ghyZtxcAAAAJ",
+    "blog": "https://bigdogmanluo.github.io/",
+    "github_link": "https://github.com/BigdogManLuo/",
+    "linkedin": "https://www.linkedin.com/in/chuanqing-pu-943673317/",
+    "avatar": "assets/img/avatar.jpg",
+    "intro": "I am currently a PhD candidate specializing in probabilistic forecasting and uncertainty-aware/data-driven optimization for power systems. I am also passionate about <b>data engineering</b>, especially skilled in time-series forecasting and optimization modeling. I also maintain a personal <b>Blog</b> and <b>GitHub repositories</b> where I share insights and projects in data science.",
+    "email": "sashabanks@sjtu.edu.cn",
+    "Research Interests": [
+        "Learning-based Optimization",
+        "Uncertainty-aware Optimization",
+        "Time Series Forecasting (Renewable Energy, Electricity Price, Load)",
+        "Decision-focused Learning on Predict-and-Optimize Pipeline"
+    ],
+    "Professional Skills": {
+        "Exploratory Data Analysis": "熟练采用Pandas, Polars, Xarray等工具进行数据处理与分析，熟悉包含相关性分析、共线性分析、正态性、平稳性检验等在内的统计分析方法，具备数据清洗、预处理、特征提取、可视化等数据工程技能，",
+        "Machine Learning": "掌握Scikit-learn、XGBoost、LightGBM等主流机器学习库，熟悉分类、回归、聚类等常见算法，具备特征工程、模型选择与调优的实战经验。",
+        "Deep Learning": "熟悉PyTorch框架，具备构建和训练神经网络模型的能力，了解CNN、RNN、Transformer等深度学习模型在时序数据处理中的应用。",
+        "Optimization Modeling": "主要使用Cvxpy框架进行优化问题的建模，熟悉线性规划、混合整数规划、二阶锥松弛、启发式、ADMM等优化算法，使用过包含GUROBI、MOSEK、COPT、SCIP等多种求解器。具备将实际问题转化为数学模型并求解的能力。",
+        "Programming Languages": "熟练掌握Python编程语言，具备良好的编码习惯和代码优化能力，熟悉与copilot等AI编程助手的协同工作。",
+        "Version Control & Collaboration": "熟悉Git版本控制系统，具备团队协作开发经验，能够高效管理代码库和协同工作。"
+    },
+    "Education": [
+            {
+                "degree": "Ph.D. in Electrical Engineering",
+                "institution": "Shanghai Jiao Tong University",
+                "year": "2023 - Present"
+            },
+            {
+                "degree": "B.E. in Electrical Engineering",
+                "institution": "Sichuan University",
+                "year": "2019 - 2023"
+            }
+        ],
+    "Research Experience": [
+        {
+            "title": "Zero-shot Photovoltaic Power Nowcasting via Vision–Language Models",
+            "abstract": "Despite the remarkable progress of deep learning–based methods for photovoltaic (PV) power forecasting, their fundamental limitation lies in a strong reliance on site-specific historical data for end-to-end customized training. Newly commissioned PV plants often lack sufficient operational records, rendering reliable forecasting infeasible. PV nowcasting is largely determined by the structure, boundaries, and evolution of cloud fields, which are observable from satellite imagery and exhibit shared visual semantics across regions and satellite products. We formalize cold-start PV nowcasting as a visual-driven zero-shot trajectory forecasting problem under out-of-distribution (OOD) conditions. We propose a vision–language model (VLM)–conditioned retrieval-augmented framework that uses semantics as a bridge for cross-domain generalization and estimates future PV power trajectories via local conditional expectation in the learned representation space.",
+            "authors": "<b>Chuanqing Pu</b>, Feilong Fan, Nengling Tai",
+            "journal": "Under Preparation"
+        },
+    
+        {
+            "title": "Predict-then-Optimize for Seaport Power-Logistics Scheduling: Generalization across Varying Tasks Stream",
+            "abstract":"Decision-focused learning aligns the training of forecasting models with downstream decision outcomes. However, this end-to-end design inherently restricts the value of forecasting models to only a specific task structure, and thus generalize poorly to evolving tasks. We address this gap with a decision-focused continual learning framework that adapts online to a stream of scheduling tasks. Specifically, we introduce Fisher information based regularization to enhance cross-task generalization by preserving parameters critical to prior tasks. A differentiable convex surrogate is also developed to stabilize gradient backpropagation. The proposed approach enables learning a decision-aligned forecasting model across a varying tasks stream with a sustainable long-term computational burden.",
+            "authors": "<b>Chuanqing Pu</b>, Feilong Fan, Nengling Tai, Yan Xu, Wentao Huang, Honglin Wen",
+            "journal": "IEEE Transactions on Smart Grid",
+            "class": "JCR Q1",
+            "pdf": "https://arxiv.org/abs/2511.07938",
+            "status": "Reviewing"
+        },
+        {
+            "title": "A Hybrid Strategy for Probabilistic Forecasting and Trading of Aggregated Wind-Solar Power: Design and Analysis in HEFTCom2024",
+            "abstract":"This paper presents the solution of team GEB, which ranked 1st among student teams in the IEEE Hybrid Energy Forecasting and Trading Competition 2024 (HEFTCom2024). The solution provides accurate probabilistic forecasts for a wind-solar hybrid system, and achieves substantial trading revenue in the day-ahead electricity market. Code for all mentioned methods is available at https://github.com/BigdogManLuo/HEFTcom24, for reproduction and further research in both industry and academia.",
+            "authors": "<b>Chuanqing Pu</b>, Feilong Fan, Nengling Tai, Songyuan Liu, Jinming Yu",
+            "journal": "International Journal of Forecasting",
+            "class": "JCR Q1",
+            "pdf": "https://arxiv.org/abs/2505.10367",
+            "code": "https://github.com/BigdogManLuo/HEFTcom24",
+            "status": "Accepted"
+        },
+        {
+            "title": "Distributed Stochastic Operation of Low-Carbon Port Energy-Logistics Systems via Learning to Warm-Start",
+            "abstract":"We propose a fast distributed scheduling framework that decomposes the centralized energy-logistics scheduling problem into iterative subproblems via ADMM, and introduces a learning-based warm start to accelerate convergence while preserving optimality. Our method reduces the computational time by more than 50% compared to GUROBI and MOSEK solvers.",
+            "authors": "<b>Feilong Fan</b>, <b>Chuanqing Pu</b>, Nengling Tai, Jiayi Luo, Zhanpeng Chen, Xipeng Zhang",
+            "journal": "IEEE Transactions on Industrial Applications",
+            "class":"JCR Q1",
+            "pdf": "https://ieeexplore.ieee.org/abstract/document/10882993",
+            "status": "Published"
+        },
+        {
+            "title": "Transmission Power-oriented Forecasting towards Stability-Constrained Operation of Renewable Energy Power Plants with Energy Storages",
+            "abstract":"This work proposes a forecasting method for renewable energy power plants with energy storage, explicitly accounting for grid-stability issues rather than only minimizing statistical errors. We embed the REPP operational model into the forecasting loss to quantify how forecast errors affect deliverable transmission power, and develop an implicit-differentiation training algorithm to enable end-to-end backpropagation.",
+            "authors": "<b>Feilong Fan</b>, <b>Chuanqing Pu</b>, Jun Wang, Nengling Tai, Hongqiao Peng, Qifen Li",
+            "journal": "CSEE Journal of Power and Energy Systems",
+            "class":"JCR Q1",
+            "pdf": "https://ieeexplore.ieee.org/abstract/document/11069389",
+            "status": "Published"
+        }
+    ],
+    "Other Publications": [
+        "Li, Ran, Chuanqing Pu, Junyi Tao, Canbing Li, Feilong Fan, Yue Xiang, and Sijie Chen. \"LLM-based frameworks for power engineering from routine to novel tasks\". arXiv preprint arXiv:2305.11202 (2023).",
+        "Pu, Chuanqing, Yue Xiang, Feilong Fan, Jiafei Huan, Li Deng, and Junyong Liu. \"Flexible Coordination of Wind Generators and Energy Storages in Joint Energy and Frequency Regulation Market.\" In 2023 Panda Forum on Power and Energy (PandaFPE), pp. 1926-1931. IEEE, 2023. (Best Paper, Best Oral Presentation)",
+        "Zhu, Junlin, Feilong Fan, Chuanqing Pu, Nengling Tai, Wentao Huang, and Canbing Li. \"Multi-Task Trustworthy Learning for Optimal Scheduling of Port Energy-Logistics Integrated Microgrids.\" IEEE Transactions on Industry Applications (2025).",
+        "Fan, Feilong, Jun Wang, Chuanqing Pu, Nengling Tai, Wentao Huang, and Su Wang. \"Stability Constrained Robust Operation of Networked Seaport Microgrids.\" IEEE Transactions on Industry Applications (2025).",
+        "Yu, Jinming, Chuanqing Pu, Zhenlan Dou, Chunyan Zhang, Jianfeng Li, and Feilong Fan. \"End-to-End Forecasting Towards Economic Operation of Microgrid Using Derivative-Free Learning.\" In 2024 IEEE Sustainable Power and Energy Conference (iSPEC), pp. 399-403. IEEE, 2024.",
+        "Chen, Genwu, Yiwei Wei, Chuanqing Pu, Feilong Fan, Nengling Tai, and Wentao Huang. \"Aerodynamic Noise-Based Fault Detection for Wind Turbine Blades: An Online Unsupervised Approach.\" In 2024 IEEE 2nd International Conference on Power Science and Technology (ICPST), pp. 988-992. IEEE, 2024.",
+        "Dou, Zhenlan, Chunyan Zhang, Chuanqing Pu, Kunqi Jia, Zhonghao Li, and Zihan Zhou. \"Achieving Optimal Demand-Side Integrated Energy Management via Hierarchical End-to-End Learning with Multisource NWP Data.\" Journal of Energy Engineering 152, no. 1 (2026): 04025106."
+    ],
+    "Data Engineering Experience":[
+        {
+            "name": "IEEE Hybrid Energy Forecasting and Trading Competition (HEFTCom24)",
+            "from_date": "2024-01",
+            "to_date": "2024-06",
+            "award": "Best Student Team (1st Place)",
+            "description": "During the first year of my Ph.D., I participated in the IEEE HEFTCom24 competition, which focuses on developing efficient hybrid wind–solar power forecasting and trading strategies to address the volatility and uncertainty of renewable generation. Our team developed multiple approaches, including multi-source NWP stacking for probabilistic forecasting, Quantile-LASSO–based online post-processing, probability density aggregation, and a stochastic trading strategy under electricity price uncertainty. Ultimately, we achieved the lowest average pinball loss and the highest trading profit, earning the “Best Student Team (1st Place)” award. We were also invited to present our work at ISF 2024, and submitted a paper detailing our methodology to the International Journal of Forecasting.",
+            "links": {
+                "practical_code": "https://github.com/BigdogManLuo/HEFTcom24/tree/online",
+                "research_code": "https://github.com/BigdogManLuo/HEFTcom24",
+                "paper": "https://arxiv.org/abs/2505.10367"
+            }
+        },
+        {
+            "name": "THS Forecasting Hackathon 2025",
+            "from_date": "2025-07",
+            "to_date": "2025-07",
+            "description": "I participated in the forecasting hackathon organized by the International Institute of Forecasters (IIF) at ISF 2025. This was an in-person, time-limited coding competition focused on forecasting quarterly inbound tourism arrivals to Hong Kong and Macao for 2023–2025. By applying time-series analysis and machine learning techniques, I achieved 1st place with the lowest MAE.",
+            "award": "First Prize(1st Place)"
+        },
+        {
+            "name": "Kaggle - Hull Tactical Market Prediction",
+            "from_date": "2025-10",
+            "to_date": "2025-12",
+            "description": "This was a global quantitative trading competition with over 5,000 participants. Contestants were required to predict the daily excess returns of S&P 500 constituents and make position-scaling decisions to maximize the Sharpe ratio. I developed a solution that combines probabilistic forecasting with uncertainty-aware optimization: I estimated CVaR via dense quantile regression, and formulated a position optimization model by deriving the one-step loss of the scoring rule. In an offline, leakage-free walk-forward evaluation, my model achieved an average Sharpe ratio of 1.33 across all folds (variance 0.9), exceeding the 15% market Sharpe benchmark.",
+            "award": "Ongoing",
+            "links":{
+                "code":"https://www.kaggle.com/code/sherlockbanks/hull-tac-submission/",
+                "discussion":"www.kaggle.com/competitions/hull-tactical-market-prediction/discussion/664108"
+            }
+        },
+        {
+            "type":"Digital Signal Processing & Embedded Systems",
+            "name":"“TI Cup” National Undergraduate Electronic Design Competition",
+            "from_date":"2021-03",
+            "to_date":"2021-11",
+            "description":"During my junior year, I participated in the 2021 “TI Cup” National Undergraduate Electronic Design Contest and won the National First Prize. The competition required designing and implementing DSP-based control algorithms for a three-phase inverter and rectifier. I led the development of the algorithmic modules, including three-/single-phase PLL, PID and PR controllers, and dq/αβ coordinate transformations, and delivered the full engineering workflow—from algorithm design to PCB implementation and experimental validation.",
+            "award":"National 1st Prize",
+            "links": {
+                "dsp_tools":"https://github.com/BigdogManLuo/DSPLibrary",
+                "pcb_source":"https://github.com/SeanXLee/universal-pe-starterkit",
+                "demo_video":"https://github.com/SeanXLee/universal-pe-starterkit"
+            }
+        },
+        {
+            "type":"Numerical Computing & Simulation",
+            "name":"“PowerFlower”: A Mini-Software for Power Flow Calculations",
+            "from_date":"2022-08",
+            "to_date":"2022-08",
+            "description":"During my junior year, I developed a mini software called PowerFlower for power flow calculations. The software was written in MATLAB scripts and used App Designer to create a graphical interface. PowerFlower supports various power flow calculation methods, including the Newton-Raphson method, PQ decomposition method, and batch power flow analysis. Users can easily input system data, run power flow calculations, and view results graphically.",
+            "links": {
+                "code":"https://github.com/BigdogManLuo/powerFlower/tree/main",
+                "document":"https://github.com/BigdogManLuo/powerFlower/blob/main/doc/document.pdf"
+            }
+     }
+    ],
+    "Presentations": [
+        {
+            "title": "Enhancing the Export Capability of Renewable Energy Bases through Two-Stage Small Signal Stability-Constrained Optimal Dispatch",
+            "event": "The 14th International Conference on Renewable Power Generation (RPG 2025)",
+            "location": "Shanghai, China",
+            "date": "2025-10-26"
+        },
+        {
+            "title": "Data-Driven Operation of Seaport Energy-Logistics Systems",
+            "event": "Academic Visiting",
+            "location": "University of Liverpool, UK",
+            "date":"2025-08-22",
+            "invited by": "Prof. Lin Jiang"
+        },
+        {
+            "title": "Data-Driven Operation of Seaport Energy-Logistics Systems",
+            "event": "Academic Visiting",
+            "location": "University College London, UK",
+            "date":"2025-08-22",
+            "invited by": "Dr. Akylas Stratigakos",
+            "pdf": "assets/files/UKAV/Presentation-research.pdf",
+            "photo": "assets/files/UKAV/ucl.jpg"
+        },
+        {
+            "title": "End-To-End Forecasting Towards Economic Operation of Microgrid Using Derivative-Free Learning",
+            "event": "IEEE Sustainable Power and Energy Conference (iSPEC) 2024",
+            "location": "Kuching, Malaysia",
+            "date": "2024-11-26"
+        },
+        {
+            "title": "Aggregated Probabilistic Forecasting and Stochastic Trading Strategies for HEFTCom2024",
+            "event": "Ørsted Science Talk",
+            "location": "Online",
+            "date": "2024-09-09",
+            "invited by": "Orsted Energy"
+        },
+        {
+            "title": "Decoupled Probabilistic Forecasting for Hybrid Power Plants and Stochastic Programming-Based Value-Oriented Trading Strategy",
+            "type": "keynote",
+            "image": "assets/img/ISF2024.png",
+            "event": "International Symposium of Forecasting 2024 (ISF2024) [Keynote] ",
+            "location": "Dijon, France",
+            "date": "2024-06-30",
+            "invited by": "Prof. Jethro Browell and International Institute of Forecasters (IIF)"
+        },
+        {
+            "title": "Aerodynamic Noise-Based Fault Detection for Wind Turbine Blades: An Online Unsupervised Approach",
+            "event": "International Conference on Power Science and Technology (ICPST) 2024",
+            "location": "Yunnan, China",
+            "date": "2024-05-10"
+        },
+        {
+            "title": "Flexible Coordination of Wind Generators and Energy Storages in Joint Energy and Frequency Regulation Market",
+            "event":"Panda Forum on Power and Energy (PandaFPE)",
+            "location":"Chengdu, China",
+            "date":"2023-04-28"
+        }
+    ],
+    "Personal Interests": [
+        "吉他，钢琴（曾担任乐队键盘手演出）",
+        "篮球，乒乓球，台球",
+        "开源软件设计（详见github仓库）"
+    ]
+}
